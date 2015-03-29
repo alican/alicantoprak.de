@@ -1,0 +1,40 @@
+#hello_bttn{
+    display: none;
+}
+#content_container{
+    text-align: left;
+}
+#pic{
+    width: 150px;
+    height: 150px;
+    top:10px;
+    left: 10px;
+    transition: postion .5s;
+}
+#column_left{
+    width: 50%;
+    float: left;
+}
+#column_right{
+    width: 50%;
+    float: right;
+}
+
+.contact_fields{
+    width: 350px;
+    padding: 3px;
+    font-size: 13px;
+    margin: 8px 0;
+    display: block;
+    border-radius: 0;
+    border: 1px solid transparent;
+}
+.contact_fields:focus{
+    border: 1px solid #0FA0CE;
+}
+#contact_form input{
+    height: 20px;
+}
+#contact_message{
+    min-height: 250px;
+}

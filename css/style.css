@@ -1,0 +1,95 @@
+html{
+    background: url("../img/stardust.png") repeat;
+
+
+}
+body{
+    color: #e6e6e6;
+    font-family: "Open Sans", sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    font-weight: 200;
+}
+#particles{
+    position: relative;
+    z-index: -1;
+}
+a{
+    transition: color .5s, background-color .5s, border 1s;
+}
+a:hover{
+    color: #0FA0CE;
+}
+p{
+    color: #e6e6e6;
+    font-family: "Open Sans", sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    font-size: 14px;
+
+}
+#alican_toprak{
+    background: url("../img/alican_toprak.svg") no-repeat;
+    width: 400px;
+    height: 80px;
+    text-indent: -99999px;
+    margin: 0 auto;
+
+}
+
+#description{
+    font-size: 14px;
+    color:#e6e6e6;
+    font-family: "Open Sans", sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    font-weight: 200;
+    letter-spacing: 0;
+
+}
+#header_container{
+    padding-top: 50px;
+}
+.header{
+}
+.container{
+    text-align: center;
+}
+nav{
+    color: #ff4f4f;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    font-weight: 200;
+}
+nav > a{
+    color: #ff4f4f;
+    text-decoration: none;
+}
+
+#pic{
+    border: solid #fff 4px;
+    border-radius: 100%;
+    width: 260px;
+    height: 260px;
+
+    margin: 50px;
+}
+.center_wrapper{
+
+}
+#hello_bttn{
+    color:#e6e6e6;
+    border: 1px solid #e6e6e6;
+    width: 200px;
+    height: 25px;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+#hello_bttn:hover{
+    background-color: #ff4f4f;
+    border: 1px solid transparent;
+
+}
