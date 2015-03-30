@@ -48,8 +48,10 @@ particlesJS('particles', {
     retina_detect: true
 });
 
-$( "#nav_contact" ).click(function() {
-    $('head').append(' <link rel="stylesheet" href="css/contact.css" id="style_contact">');
-   // document.getElementById("style_contact").disabled = true;
-    //$('#style_contact').attr('disabled', 'true');
+$('#content_container').pagify({
+    pages: ['home', 'about', 'contact'],
+    default: 'home',
+    basePagePath: "/alicantoprak.de",
+    animation: 'fadeIn',
+    cache:false
 });

@@ -1,18 +1,12 @@
-.start_page{
-    display: none;
-}
-.contact_page{
-    display: block;
-}
-#content_container{
+
+#contact_page{
     text-align: left;
 }
-#pic{
+#contact_pic{
     width: 150px;
     height: 150px;
     top:10px;
     left: 10px;
-    transition: postion .5s;
 }
 #column_left{
     width: 50%;

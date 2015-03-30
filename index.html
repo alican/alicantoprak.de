@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="css/skeleton.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/contact.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -30,36 +31,22 @@
 
         <div class="container" id="header_container">
                 <section class="header">
-                    <h1 id="alican_toprak">Alican Toprak</h1>
+                    <h1 id="alican_toprak"><a href="#home">Alican Toprak</a></h1>
                     <h3 id="description">FRONT-/BACK-END • PYTHON/DJANGO • UX </h3>
                 </section>
                 <nav>
-                    <a href="#">about</a> • <a id="nav_contact" href="#">contact</a>
+                    <a href="#about">about</a> • <a id="nav_contact" href="#contact">contact</a>
                 </nav>
         </div>
 
         <div class="container" id="content_container">
-            <div id="column_left">
+            <div class="center_wrapper">
                 <img src="img/pic.jpg" width="300px" id="pic"/>
-                <div class="contact_page">
-                    <p>
-                        Phone: +49 176 4776 12 13<br>
-                        Mail:   mail@alicantoprak.de<br>
-                    </p>
+
+                <div class="center_wrapper start_page">
+                    <a href="#" class="bttn" id="hello_bttn">Mich anschreiben</a>
                 </div>
 
-            </div>
-            <div id="column_right">
-                <form id="contact_form" class="contact_page">
-                    <input class="contact_fields" id="contact_name" placeholder="Ihr Name" />
-                    <input class="contact_fields" id="contact_mail" placeholder="Ihre E-Mail" />
-                    <input class="contact_fields" id="contact_desc" type="hidden" placeholder="Betreff" />
-                    <textarea class="contact_fields" id="contact_message" placeholder="Ihre Nachricht"></textarea>
-                    <button type="submit" class="bttn">Abschicken</button>
-                </form>
-               </div>
-            <div class="center_wrapper start_page">
-                <a href="#" class="bttn" id="hello_bttn">Mich anschreiben</a>
             </div>
         </div>
 
