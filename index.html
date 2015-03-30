@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="css/skeleton.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/contact.css">
+
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -34,7 +34,7 @@
                     <h3 id="description">FRONT-/BACK-END • PYTHON/DJANGO • UX </h3>
                 </section>
                 <nav>
-                    <a href="#">about</a> • <a href="#">contact</a>
+                    <a href="#">about</a> • <a id="nav_contact" href="#">contact</a>
                 </nav>
         </div>
 
@@ -50,21 +50,20 @@
 
             </div>
             <div id="column_right">
-                <form id="contact_form">
+                <form id="contact_form" class="contact_page">
                     <input class="contact_fields" id="contact_name" placeholder="Ihr Name" />
                     <input class="contact_fields" id="contact_mail" placeholder="Ihre E-Mail" />
                     <input class="contact_fields" id="contact_desc" type="hidden" placeholder="Betreff" />
                     <textarea class="contact_fields" id="contact_message" placeholder="Ihre Nachricht"></textarea>
-                    <button type="submit">Abschicken</button>
+                    <button type="submit" class="bttn">Abschicken</button>
                 </form>
                </div>
             <div class="center_wrapper start_page">
-                <a href="#" id="hello_bttn">Mich anschreiben</a>
+                <a href="#" class="bttn" id="hello_bttn">Mich anschreiben</a>
             </div>
         </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/vendor/jquery-2.1.3.min.js"></script>
         <script src="js/particles.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>

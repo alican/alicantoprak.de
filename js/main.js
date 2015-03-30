@@ -47,3 +47,9 @@ particlesJS('particles', {
     /* Retina Display Support */
     retina_detect: true
 });
+
+$( "#nav_contact" ).click(function() {
+    $('head').append(' <link rel="stylesheet" href="css/contact.css" id="style_contact">');
+   // document.getElementById("style_contact").disabled = true;
+    //$('#style_contact').attr('disabled', 'true');
+});
